@@ -21,7 +21,7 @@ let mbserver = mbhttp.createServer(
       mbtext = "Do we know each other?";
    }
 
-    mbtext = mbtext + " I don't usually talk to strangers";
+    mbtext = mbtext + " I don't usually talk to strangers.";
 
     // writeHead() creates an http response header, including the status code (200 OK), the content type
     mbresponse.writeHead( 200, { "Content-Type": "text/plain" } );
